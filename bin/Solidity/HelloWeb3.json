@@ -1,0 +1,130 @@
+{
+    "contractName": "HelloWeb3",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "_string",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_string\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":\"HelloWeb3\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":{\"keccak256\":\"0xc770a2fc38467a0a3578c0e39bbf3e21c38da063bebd6f5a96e098b125b38671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9a1a739659a9882a8c40d19de61b8ed5d94bcd3b9346fe32a48b2d85d6056d00\",\"dweb:/ipfs/QmRfnwhod8ezopDznFXhapkXXfXnJHQZs1S13m16uxzSzf\"]}},\"version\":1}",
+    "bytecode": "6080604052341561000f57600080fd5b60008054600180821691811c908261002857607f821691505b6020821083141561004757634e487b7160e01b84526022600452602484fd5b601f82111561007957838452602084209250601f820160051c83015b808410156100775784845592810192610063565b505b50507f48656c6c6f772020576f726c640000000000000000000000000000000000001a909155506101e9806100b0608039806080f3fe608060405260043610610110576000803560e01c639b267f09141561010e573415610028578081fd5b8060031936011215610038578081fd5b80548190600181811c908083168061005157607f831692505b602080841082141561007157634e487b7160e01b87526022600452602487fd5b61007d8460805260a090565b82801561009157600181146100a2576100e8565b60ff198716825282820197506100e8565b600080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563895b878110156100e2578154848201529086019084016100c9565b83019850505b505050505050506100fc607f198201610115565b506040518061010a82610151565b0381f35b505b600080fd5b601f19601f8201166080016080811067ffffffffffffffff8211171561014b57634e487b7160e01b600052604160045260246000fd5b60405250565b60006020808352608051808285015260005b8181101561017e5760a0810151858201604001528201610163565b81811115610190576000604083870101525b50601f01601f1916929092016040019291505056fea3646970667358221220b8ea72dc363e0a874496b9ecca0225449bd4a586b0ff53de57535b43ef49f4876c6578706572696d656e74616cf564736f6c63430008090041",
+    "deployedBytecode": "608060405260043610610110576000803560e01c639b267f09141561010e573415610028578081fd5b8060031936011215610038578081fd5b80548190600181811c908083168061005157607f831692505b602080841082141561007157634e487b7160e01b87526022600452602487fd5b61007d8460805260a090565b82801561009157600181146100a2576100e8565b60ff198716825282820197506100e8565b600080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563895b878110156100e2578154848201529086019084016100c9565b83019850505b505050505050506100fc607f198201610115565b506040518061010a82610151565b0381f35b505b600080fd5b601f19601f8201166080016080811067ffffffffffffffff8211171561014b57634e487b7160e01b600052604160045260246000fd5b60405250565b60006020808352608051808285015260005b8181101561017e5760a0810151858201604001528201610163565b81811115610190576000604083870101525b50601f01601f1916929092016040019291505056fea3646970667358221220b8ea72dc363e0a874496b9ecca0225449bd4a586b0ff53de57535b43ef49f4876c6578706572696d656e74616cf564736f6c63430008090041",
+    "sourceMap": "58:72:0:-:0;;;;;;;;;;;105:15;58:72;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;58:72:0;;;;;;105:15;58:72;;;;;;;;105:15;;58:72;;105:15;58:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;-1:-1:-1;58:72:0;;;;;;;",
+    "deployedSourceMap": "58:72:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;58:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;;;;;-1:-1:-1;58:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;58:72:0:o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;58:72:0;;-1:-1:-1;;58:72:0;;;;;;;;;-1:-1:-1;;58:72:0:o",
+    "sourcePath": "d:/web3/相关资料/web3learning/Solidity/HelloWord.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.9+commit.e5eed63a"
+    },
+    "ast": {
+        "absolutePath": "d:/web3/相关资料/web3learning/Solidity/HelloWord.sol",
+        "exportedSymbols": {
+            "HelloWeb3": [
+                5
+            ]
+        },
+        "id": 6,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".9"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWeb3",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 5,
+                "linearizedBaseContracts": [
+                    5
+                ],
+                "name": "HelloWeb3",
+                "nameLocation": "67:9:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "9b267f09",
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "_string",
+                        "nameLocation": "97:7:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 5,
+                        "src": "83:37:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "83:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f772020576f726c64",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "105:15:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_7db713e0e7908f23690c4b5f0c7f7a214f85e06ba98b90881c92894a08f624c0",
+                                "typeString": "literal_string \"Hellow  World\""
+                            },
+                            "value": "Hellow  World"
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 6,
+                "src": "58:72:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:99:0"
+    },
+    "functionHashes": {
+        "_string()": "9b267f09"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "97800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "_string()": "infinite"
+        }
+    }
+}

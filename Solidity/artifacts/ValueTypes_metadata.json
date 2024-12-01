@@ -7,97 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "_addres",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_int",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_number",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_number1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_number2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_number3",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "_numberbool",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "_uint",
 				"outputs": [
 					{
@@ -117,11 +26,7 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"_number1()": {
-					"notice": "比较运算符（返回布尔值）： <=， <，==， !=， >=， > 算数运算符： +， -， *， /， %（取余），**（幂）"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
@@ -142,11 +47,11 @@
 	},
 	"sources": {
 		"Solidity/ValueType.sol": {
-			"keccak256": "0xb9e59d7d07e53cf5dae20084b46527151fde62ae096f30b85f813e2160bd483a",
+			"keccak256": "0xda68265d3e26abb3af4c5b1f268e1b02af95af48637ade99418c5d23d7580ed9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8351fbb2b40552299085c965bb51e8c09e59931ab5794fd4e53f068bd5006f79",
-				"dweb:/ipfs/QmXyQ6QUiNyL3vU1GiFMeGRuc5hmwexAWzGH257nzu9xyv"
+				"bzz-raw://2c985414f87c94ba70d5fc1f37a6e3979e57e8e3ad9d07d883c78ce0be879bc9",
+				"dweb:/ipfs/QmQRCpo21hZhYiPX8YD4JtWP4HNHYBvhFha4LHmeQobEoU"
 			]
 		}
 	},
