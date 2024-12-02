@@ -1,24 +1,38 @@
 {
     "contractName": "ValueTypes",
-    "abi": [],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":\"ValueTypes\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":{\"keccak256\":\"0xd061c4757b94e95377eeb37f3686b7ca9653e13a1221f9ca5432331c0bfa52d8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ad1e569e0d961d1a8afab884ff42469b7e99d3509c6cc2f8b410f1d26d5588d0\",\"dweb:/ipfs/QmVCXK1hXbb16QvQixop4DUkLLbSH2ie8wmyYcRcACszUE\"]}},\"version\":1}",
-    "bytecode": "60806040523415600e57600080fd5b60ff1960005416600055604d806026608039806080f3fe6080604052600080fdfea3646970667358221220713b4a06a1441d16660d3f23ab7679fec77b5cd57fb50a11d2208ac4b02646086c6578706572696d656e74616cf564736f6c63430008090041",
-    "deployedBytecode": "6080604052600080fdfea3646970667358221220713b4a06a1441d16660d3f23ab7679fec77b5cd57fb50a11d2208ac4b02646086c6578706572696d656e74616cf564736f6c63430008090041",
-    "sourceMap": "58:3284:0:-:0;;;;;;;;;;;;;3314:13;58:3284;;3314:13;58:3284;;;;;;;;",
-    "deployedSourceMap": "58:3284:0:-:0;;;;;",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "_uint",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_uint\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":\"ValueTypes\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":{\"keccak256\":\"0x667cdfb3a04efaf178303cb96c7f808b39c313ce629ad0bb8317e35e230a7362\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://136b688915f7e0118b6738c521a687c938ac14a47473804a34a71cec1de8355d\",\"dweb:/ipfs/QmZr5i7FvnYYAUFmZMBQfh7u4a9fvvEJ5zpCohr8MWFthH\"]}},\"version\":1}",
+    "bytecode": "608080604052346017575f80556074908161001c8239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c632543135b146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220e6269d2fb098ac2495e6ca00f2d2dfe4eaf3446dfa389d4c5856279963cace5764736f6c63430008180033",
+    "deployedBytecode": "60808060405260043610156011575f80fd5b5f3560e01c632543135b146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220e6269d2fb098ac2495e6ca00f2d2dfe4eaf3446dfa389d4c5856279963cace5764736f6c63430008180033",
+    "sourceMap": "59:3476:0:-:0;;;;;;;1463:1;59:3476;;;;;;;;;;;;",
+    "deployedSourceMap": "59:3476:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:3476:0;;;;;;;;;;;;;;",
     "sourcePath": "d:/web3/相关资料/web3learning/Solidity/ValueType.sol",
     "compiler": {
         "name": "solc",
-        "version": "0.8.9+commit.e5eed63a"
+        "version": "0.8.24+commit.e11b9ed9"
     },
     "ast": {
         "absolutePath": "d:/web3/相关资料/web3learning/Solidity/ValueType.sol",
         "exportedSymbols": {
             "ValueTypes": [
-                11
+                5
             ]
         },
-        "id": 12,
+        "id": 6,
         "license": "MIT",
         "nodeType": "SourceUnit",
         "nodes": [
@@ -28,10 +42,10 @@
                     "solidity",
                     "^",
                     "0.8",
-                    ".9"
+                    ".24"
                 ],
                 "nodeType": "PragmaDirective",
-                "src": "33:23:0"
+                "src": "33:24:0"
             },
             {
                 "abstract": false,
@@ -40,120 +54,78 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": true,
-                "id": 11,
+                "id": 5,
                 "linearizedBaseContracts": [
-                    11
+                    5
                 ],
                 "name": "ValueTypes",
-                "nameLocation": "67:10:0",
+                "nameLocation": "68:10:0",
                 "nodeType": "ContractDefinition",
                 "nodes": [
                     {
-                        "canonicalName": "ValueTypes.ActionSet",
-                        "id": 5,
-                        "members": [
-                            {
-                                "id": 2,
-                                "name": "Buy",
-                                "nameLocation": "3261:3:0",
-                                "nodeType": "EnumValue",
-                                "src": "3261:3:0"
-                            },
-                            {
-                                "id": 3,
-                                "name": "Hold",
-                                "nameLocation": "3265:4:0",
-                                "nodeType": "EnumValue",
-                                "src": "3265:4:0"
-                            },
-                            {
-                                "id": 4,
-                                "name": "Sell",
-                                "nameLocation": "3270:4:0",
-                                "nodeType": "EnumValue",
-                                "src": "3270:4:0"
-                            }
-                        ],
-                        "name": "ActionSet",
-                        "nameLocation": "3250:9:0",
-                        "nodeType": "EnumDefinition",
-                        "src": "3245:30:0"
-                    },
-                    {
                         "constant": false,
-                        "id": 10,
+                        "functionSelector": "2543135b",
+                        "id": 4,
                         "mutability": "mutable",
-                        "name": "action",
-                        "nameLocation": "3305:6:0",
+                        "name": "_uint",
+                        "nameLocation": "1457:5:0",
                         "nodeType": "VariableDeclaration",
-                        "scope": 11,
-                        "src": "3295:32:0",
+                        "scope": 5,
+                        "src": "1445:19:0",
                         "stateVariable": true,
                         "storageLocation": "default",
                         "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_ActionSet_$5",
-                            "typeString": "enum ValueTypes.ActionSet"
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
                         },
                         "typeName": {
-                            "id": 7,
-                            "nodeType": "UserDefinedTypeName",
-                            "pathNode": {
-                                "id": 6,
-                                "name": "ActionSet",
-                                "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 5,
-                                "src": "3295:9:0"
-                            },
-                            "referencedDeclaration": 5,
-                            "src": "3295:9:0",
+                            "id": 2,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1445:4:0",
                             "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_ActionSet_$5",
-                                "typeString": "enum ValueTypes.ActionSet"
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
                             }
                         },
                         "value": {
-                            "expression": {
-                                "id": 8,
-                                "name": "ActionSet",
-                                "nodeType": "Identifier",
-                                "overloadedDeclarations": [],
-                                "referencedDeclaration": 5,
-                                "src": "3314:9:0",
-                                "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_enum$_ActionSet_$5_$",
-                                    "typeString": "type(enum ValueTypes.ActionSet)"
-                                }
-                            },
-                            "id": 9,
+                            "hexValue": "30",
+                            "id": 3,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
+                            "kind": "number",
                             "lValueRequested": false,
-                            "memberName": "Buy",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2,
-                            "src": "3314:13:0",
+                            "nodeType": "Literal",
+                            "src": "1463:1:0",
                             "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_ActionSet_$5",
-                                "typeString": "enum ValueTypes.ActionSet"
-                            }
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                            },
+                            "value": "0"
                         },
-                        "visibility": "internal"
+                        "visibility": "public"
                     }
                 ],
-                "scope": 12,
-                "src": "58:3284:0",
-                "usedErrors": []
+                "scope": 6,
+                "src": "59:3476:0",
+                "usedErrors": [],
+                "usedEvents": []
             }
         ],
-        "src": "33:3309:0"
+        "src": "33:3502:0"
     },
-    "functionHashes": {},
+    "functionHashes": {
+        "_uint()": "2543135b"
+    },
     "gasEstimates": {
         "creation": {
-            "codeDepositCost": "15400",
-            "executionCost": "24294",
-            "totalCost": "39694"
+            "codeDepositCost": "23200",
+            "executionCost": "5086",
+            "totalCost": "28286"
+        },
+        "external": {
+            "_uint()": "2241"
         }
     }
 }

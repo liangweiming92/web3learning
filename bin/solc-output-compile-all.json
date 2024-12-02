@@ -27,47 +27,22 @@
                         "functionDebugData": {},
                         "generatedSources": [],
                         "linkReferences": {},
-                        "object": "6080604052341561000f57600080fd5b60008054600180821691811c908261002857607f821691505b6020821083141561004757634e487b7160e01b84526022600452602484fd5b601f82111561007957838452602084209250601f820160051c83015b808410156100775784845592810192610063565b505b50507f48656c6c6f772020576f726c640000000000000000000000000000000000001a909155506101e9806100b0608039806080f3fe608060405260043610610110576000803560e01c639b267f09141561010e573415610028578081fd5b8060031936011215610038578081fd5b80548190600181811c908083168061005157607f831692505b602080841082141561007157634e487b7160e01b87526022600452602487fd5b61007d8460805260a090565b82801561009157600181146100a2576100e8565b60ff198716825282820197506100e8565b600080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563895b878110156100e2578154848201529086019084016100c9565b83019850505b505050505050506100fc607f198201610115565b506040518061010a82610151565b0381f35b505b600080fd5b601f19601f8201166080016080811067ffffffffffffffff8211171561014b57634e487b7160e01b600052604160045260246000fd5b60405250565b60006020808352608051808285015260005b8181101561017e5760a0810151858201604001528201610163565b81811115610190576000604083870101525b50601f01601f1916929092016040019291505056fea3646970667358221220b8ea72dc363e0a874496b9ecca0225449bd4a586b0ff53de57535b43ef49f4876c6578706572696d656e74616cf564736f6c63430008090041",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE ISZERO PUSH2 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0x1 DUP1 DUP3 AND SWAP2 DUP2 SHR SWAP1 DUP3 PUSH2 0x28 JUMPI PUSH1 0x7F DUP3 AND SWAP2 POP JUMPDEST PUSH1 0x20 DUP3 LT DUP4 EQ ISZERO PUSH2 0x47 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL DUP5 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 DUP5 REVERT JUMPDEST PUSH1 0x1F DUP3 GT ISZERO PUSH2 0x79 JUMPI DUP4 DUP5 MSTORE PUSH1 0x20 DUP5 KECCAK256 SWAP3 POP PUSH1 0x1F DUP3 ADD PUSH1 0x5 SHR DUP4 ADD JUMPDEST DUP1 DUP5 LT ISZERO PUSH2 0x77 JUMPI DUP5 DUP5 SSTORE SWAP3 DUP2 ADD SWAP3 PUSH2 0x63 JUMP JUMPDEST POP JUMPDEST POP POP PUSH32 0x48656C6C6F772020576F726C640000000000000000000000000000000000001A SWAP1 SWAP2 SSTORE POP PUSH2 0x1E9 DUP1 PUSH2 0xB0 PUSH1 0x80 CODECOPY DUP1 PUSH1 0x80 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x110 JUMPI PUSH1 0x0 DUP1 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x9B267F09 EQ ISZERO PUSH2 0x10E JUMPI CALLVALUE ISZERO PUSH2 0x28 JUMPI DUP1 DUP2 REVERT JUMPDEST DUP1 PUSH1 0x3 NOT CALLDATASIZE ADD SLT ISZERO PUSH2 0x38 JUMPI DUP1 DUP2 REVERT JUMPDEST DUP1 SLOAD DUP2 SWAP1 PUSH1 0x1 DUP2 DUP2 SHR SWAP1 DUP1 DUP4 AND DUP1 PUSH2 0x51 JUMPI PUSH1 0x7F DUP4 AND SWAP3 POP JUMPDEST PUSH1 0x20 DUP1 DUP5 LT DUP3 EQ ISZERO PUSH2 0x71 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL DUP8 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 DUP8 REVERT JUMPDEST PUSH2 0x7D DUP5 PUSH1 0x80 MSTORE PUSH1 0xA0 SWAP1 JUMP JUMPDEST DUP3 DUP1 ISZERO PUSH2 0x91 JUMPI PUSH1 0x1 DUP2 EQ PUSH2 0xA2 JUMPI PUSH2 0xE8 JUMP JUMPDEST PUSH1 0xFF NOT DUP8 AND DUP3 MSTORE DUP3 DUP3 ADD SWAP8 POP PUSH2 0xE8 JUMP JUMPDEST PUSH1 0x0 DUP1 MSTORE PUSH32 0x290DECD9548B62A8D60345A988386FC84BA6BC95484008F6362F93160EF3E563 DUP10 JUMPDEST DUP8 DUP2 LT ISZERO PUSH2 0xE2 JUMPI DUP2 SLOAD DUP5 DUP3 ADD MSTORE SWAP1 DUP7 ADD SWAP1 DUP5 ADD PUSH2 0xC9 JUMP JUMPDEST DUP4 ADD SWAP9 POP POP JUMPDEST POP POP POP POP POP POP POP PUSH2 0xFC PUSH1 0x7F NOT DUP3 ADD PUSH2 0x115 JUMP JUMPDEST POP PUSH1 0x40 MLOAD DUP1 PUSH2 0x10A DUP3 PUSH2 0x151 JUMP JUMPDEST SUB DUP2 RETURN JUMPDEST POP JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND PUSH1 0x80 ADD PUSH1 0x80 DUP2 LT PUSH8 0xFFFFFFFFFFFFFFFF DUP3 GT OR ISZERO PUSH2 0x14B JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH1 0x0 MSTORE PUSH1 0x41 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST PUSH1 0x40 MSTORE POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP1 DUP4 MSTORE PUSH1 0x80 MLOAD DUP1 DUP3 DUP6 ADD MSTORE PUSH1 0x0 JUMPDEST DUP2 DUP2 LT ISZERO PUSH2 0x17E JUMPI PUSH1 0xA0 DUP2 ADD MLOAD DUP6 DUP3 ADD PUSH1 0x40 ADD MSTORE DUP3 ADD PUSH2 0x163 JUMP JUMPDEST DUP2 DUP2 GT ISZERO PUSH2 0x190 JUMPI PUSH1 0x0 PUSH1 0x40 DUP4 DUP8 ADD ADD MSTORE JUMPDEST POP PUSH1 0x1F ADD PUSH1 0x1F NOT AND SWAP3 SWAP1 SWAP3 ADD PUSH1 0x40 ADD SWAP3 SWAP2 POP POP JUMP INVALID LOG3 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB8 0xEA PUSH19 0xDC363E0A874496B9ECCA0225449BD4A586B0FF MSTORE8 0xDE JUMPI MSTORE8 JUMPDEST NUMBER 0xEF 0x49 DELEGATECALL DUP8 PUSH13 0x6578706572696D656E74616CF5 PUSH5 0x736F6C6343 STOP ADDMOD MULMOD STOP COINBASE ",
-                        "sourceMap": "58:72:0:-:0;;;;;;;;;;;105:15;58:72;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;58:72:0;;;;;;105:15;58:72;;;;;;;;105:15;;58:72;;105:15;58:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;-1:-1:-1;58:72:0;;;;;;;"
+                        "object": "608080604052346100c2575f54600190600181811c911680156100b8575b60208210146100a457601f811161005e575b7f48656c6c6f772020576f726c640000000000000000000000000000000000001a5f556101b883816100c78239f35b5f8052601f0160051c7f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563908101905b81811061009a575061002f565b5f8155820161008d565b634e487b7160e01b5f52602260045260245ffd5b90607f169061001d565b5f80fdfe6080600436101561000e575f80fd5b5f3560e01c639b267f0914610021575f80fd5b3461017e575f36600319011261017e575f8054916001918360011c9260018516908115610174575b602095868610831461016057858552869290811561014157506001146100ef575b5050819250601f801993849203011681019281841067ffffffffffffffff8511176100db579083916040918360405281845280519283838601525f5b8481106100c5578560408189601f895f85828601015201168101030190f35b82810184015188820183015287955083016100a6565b634e487b7160e01b5f52604160045260245ffd5b5f8080529192507f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b85831061012e575050828094500101835f61006a565b8054858401850152918301918101610118565b60ff191683860152509293849350151560051b8301019050835f61006a565b634e487b7160e01b5f52602260045260245ffd5b93607f1693610049565b5f80fdfea26469706673582212209bba107a32ed36989d7d67fae643ce40a7fc1eba3a813811c1639a033e57682e64736f6c63430008180033",
+                        "opcodes": "PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE CALLVALUE PUSH2 0xC2 JUMPI PUSH0 SLOAD PUSH1 0x1 SWAP1 PUSH1 0x1 DUP2 DUP2 SHR SWAP2 AND DUP1 ISZERO PUSH2 0xB8 JUMPI JUMPDEST PUSH1 0x20 DUP3 LT EQ PUSH2 0xA4 JUMPI PUSH1 0x1F DUP2 GT PUSH2 0x5E JUMPI JUMPDEST PUSH32 0x48656C6C6F772020576F726C640000000000000000000000000000000000001A PUSH0 SSTORE PUSH2 0x1B8 DUP4 DUP2 PUSH2 0xC7 DUP3 CODECOPY RETURN JUMPDEST PUSH0 DUP1 MSTORE PUSH1 0x1F ADD PUSH1 0x5 SHR PUSH32 0x290DECD9548B62A8D60345A988386FC84BA6BC95484008F6362F93160EF3E563 SWAP1 DUP2 ADD SWAP1 JUMPDEST DUP2 DUP2 LT PUSH2 0x9A JUMPI POP PUSH2 0x2F JUMP JUMPDEST PUSH0 DUP2 SSTORE DUP3 ADD PUSH2 0x8D JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST SWAP1 PUSH1 0x7F AND SWAP1 PUSH2 0x1D JUMP JUMPDEST PUSH0 DUP1 REVERT INVALID PUSH1 0x80 PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH2 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x9B267F09 EQ PUSH2 0x21 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH2 0x17E JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH2 0x17E JUMPI PUSH0 DUP1 SLOAD SWAP2 PUSH1 0x1 SWAP2 DUP4 PUSH1 0x1 SHR SWAP3 PUSH1 0x1 DUP6 AND SWAP1 DUP2 ISZERO PUSH2 0x174 JUMPI JUMPDEST PUSH1 0x20 SWAP6 DUP7 DUP7 LT DUP4 EQ PUSH2 0x160 JUMPI DUP6 DUP6 MSTORE DUP7 SWAP3 SWAP1 DUP2 ISZERO PUSH2 0x141 JUMPI POP PUSH1 0x1 EQ PUSH2 0xEF JUMPI JUMPDEST POP POP DUP2 SWAP3 POP PUSH1 0x1F DUP1 NOT SWAP4 DUP5 SWAP3 SUB ADD AND DUP2 ADD SWAP3 DUP2 DUP5 LT PUSH8 0xFFFFFFFFFFFFFFFF DUP6 GT OR PUSH2 0xDB JUMPI SWAP1 DUP4 SWAP2 PUSH1 0x40 SWAP2 DUP4 PUSH1 0x40 MSTORE DUP2 DUP5 MSTORE DUP1 MLOAD SWAP3 DUP4 DUP4 DUP7 ADD MSTORE PUSH0 JUMPDEST DUP5 DUP2 LT PUSH2 0xC5 JUMPI DUP6 PUSH1 0x40 DUP2 DUP10 PUSH1 0x1F DUP10 PUSH0 DUP6 DUP3 DUP7 ADD ADD MSTORE ADD AND DUP2 ADD SUB ADD SWAP1 RETURN JUMPDEST DUP3 DUP2 ADD DUP5 ADD MLOAD DUP9 DUP3 ADD DUP4 ADD MSTORE DUP8 SWAP6 POP DUP4 ADD PUSH2 0xA6 JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x41 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 DUP1 DUP1 MSTORE SWAP2 SWAP3 POP PUSH32 0x290DECD9548B62A8D60345A988386FC84BA6BC95484008F6362F93160EF3E563 JUMPDEST DUP6 DUP4 LT PUSH2 0x12E JUMPI POP POP DUP3 DUP1 SWAP5 POP ADD ADD DUP4 PUSH0 PUSH2 0x6A JUMP JUMPDEST DUP1 SLOAD DUP6 DUP5 ADD DUP6 ADD MSTORE SWAP2 DUP4 ADD SWAP2 DUP2 ADD PUSH2 0x118 JUMP JUMPDEST PUSH1 0xFF NOT AND DUP4 DUP7 ADD MSTORE POP SWAP3 SWAP4 DUP5 SWAP4 POP ISZERO ISZERO PUSH1 0x5 SHL DUP4 ADD ADD SWAP1 POP DUP4 PUSH0 PUSH2 0x6A JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST SWAP4 PUSH1 0x7F AND SWAP4 PUSH2 0x49 JUMP JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP12 0xBA LT PUSH27 0x32ED36989D7D67FAE643CE40A7FC1EBA3A813811C1639A033E5768 0x2E PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+                        "sourceMap": "59:72:0:-:0;;;;;;;106:15;59:72;;;;;;;;;;;;;-1:-1:-1;59:72:0;;;;;;;;;;;-1:-1:-1;59:72:0;106:15;59:72;;;;;;;;;106:15;59:72;;;;;;;;;;;;;;;;;;;;;106:15;59:72;;;;;;;;;;106:15;59:72;;;;;106:15;59:72;;;;;;;;;;;"
                     },
                     "deployedBytecode": {
-                        "functionDebugData": {
-                            "abi_encode_string": {
-                                "entryPoint": 337,
-                                "id": null,
-                                "parameterSlots": 1,
-                                "returnSlots": 1
-                            },
-                            "array_dataslot_string_storage": {
-                                "entryPoint": null,
-                                "id": null,
-                                "parameterSlots": 0,
-                                "returnSlots": 1
-                            },
-                            "array_storeLengthForEncoding_string": {
-                                "entryPoint": null,
-                                "id": null,
-                                "parameterSlots": 1,
-                                "returnSlots": 1
-                            },
-                            "finalize_allocation": {
-                                "entryPoint": 277,
-                                "id": null,
-                                "parameterSlots": 1,
-                                "returnSlots": 0
-                            }
-                        },
+                        "functionDebugData": {},
                         "generatedSources": [],
                         "immutableReferences": {},
                         "linkReferences": {},
-                        "object": "608060405260043610610110576000803560e01c639b267f09141561010e573415610028578081fd5b8060031936011215610038578081fd5b80548190600181811c908083168061005157607f831692505b602080841082141561007157634e487b7160e01b87526022600452602487fd5b61007d8460805260a090565b82801561009157600181146100a2576100e8565b60ff198716825282820197506100e8565b600080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563895b878110156100e2578154848201529086019084016100c9565b83019850505b505050505050506100fc607f198201610115565b506040518061010a82610151565b0381f35b505b600080fd5b601f19601f8201166080016080811067ffffffffffffffff8211171561014b57634e487b7160e01b600052604160045260246000fd5b60405250565b60006020808352608051808285015260005b8181101561017e5760a0810151858201604001528201610163565b81811115610190576000604083870101525b50601f01601f1916929092016040019291505056fea3646970667358221220b8ea72dc363e0a874496b9ecca0225449bd4a586b0ff53de57535b43ef49f4876c6578706572696d656e74616cf564736f6c63430008090041",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x110 JUMPI PUSH1 0x0 DUP1 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x9B267F09 EQ ISZERO PUSH2 0x10E JUMPI CALLVALUE ISZERO PUSH2 0x28 JUMPI DUP1 DUP2 REVERT JUMPDEST DUP1 PUSH1 0x3 NOT CALLDATASIZE ADD SLT ISZERO PUSH2 0x38 JUMPI DUP1 DUP2 REVERT JUMPDEST DUP1 SLOAD DUP2 SWAP1 PUSH1 0x1 DUP2 DUP2 SHR SWAP1 DUP1 DUP4 AND DUP1 PUSH2 0x51 JUMPI PUSH1 0x7F DUP4 AND SWAP3 POP JUMPDEST PUSH1 0x20 DUP1 DUP5 LT DUP3 EQ ISZERO PUSH2 0x71 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL DUP8 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 DUP8 REVERT JUMPDEST PUSH2 0x7D DUP5 PUSH1 0x80 MSTORE PUSH1 0xA0 SWAP1 JUMP JUMPDEST DUP3 DUP1 ISZERO PUSH2 0x91 JUMPI PUSH1 0x1 DUP2 EQ PUSH2 0xA2 JUMPI PUSH2 0xE8 JUMP JUMPDEST PUSH1 0xFF NOT DUP8 AND DUP3 MSTORE DUP3 DUP3 ADD SWAP8 POP PUSH2 0xE8 JUMP JUMPDEST PUSH1 0x0 DUP1 MSTORE PUSH32 0x290DECD9548B62A8D60345A988386FC84BA6BC95484008F6362F93160EF3E563 DUP10 JUMPDEST DUP8 DUP2 LT ISZERO PUSH2 0xE2 JUMPI DUP2 SLOAD DUP5 DUP3 ADD MSTORE SWAP1 DUP7 ADD SWAP1 DUP5 ADD PUSH2 0xC9 JUMP JUMPDEST DUP4 ADD SWAP9 POP POP JUMPDEST POP POP POP POP POP POP POP PUSH2 0xFC PUSH1 0x7F NOT DUP3 ADD PUSH2 0x115 JUMP JUMPDEST POP PUSH1 0x40 MLOAD DUP1 PUSH2 0x10A DUP3 PUSH2 0x151 JUMP JUMPDEST SUB DUP2 RETURN JUMPDEST POP JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND PUSH1 0x80 ADD PUSH1 0x80 DUP2 LT PUSH8 0xFFFFFFFFFFFFFFFF DUP3 GT OR ISZERO PUSH2 0x14B JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH1 0x0 MSTORE PUSH1 0x41 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST PUSH1 0x40 MSTORE POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP1 DUP4 MSTORE PUSH1 0x80 MLOAD DUP1 DUP3 DUP6 ADD MSTORE PUSH1 0x0 JUMPDEST DUP2 DUP2 LT ISZERO PUSH2 0x17E JUMPI PUSH1 0xA0 DUP2 ADD MLOAD DUP6 DUP3 ADD PUSH1 0x40 ADD MSTORE DUP3 ADD PUSH2 0x163 JUMP JUMPDEST DUP2 DUP2 GT ISZERO PUSH2 0x190 JUMPI PUSH1 0x0 PUSH1 0x40 DUP4 DUP8 ADD ADD MSTORE JUMPDEST POP PUSH1 0x1F ADD PUSH1 0x1F NOT AND SWAP3 SWAP1 SWAP3 ADD PUSH1 0x40 ADD SWAP3 SWAP2 POP POP JUMP INVALID LOG3 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB8 0xEA PUSH19 0xDC363E0A874496B9ECCA0225449BD4A586B0FF MSTORE8 0xDE JUMPI MSTORE8 JUMPDEST NUMBER 0xEF 0x49 DELEGATECALL DUP8 PUSH13 0x6578706572696D656E74616CF5 PUSH5 0x736F6C6343 STOP ADDMOD MULMOD STOP COINBASE ",
-                        "sourceMap": "58:72:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;58:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;;;;;-1:-1:-1;58:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;58:72:0;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;58:72:0:o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;58:72:0;;-1:-1:-1;;58:72:0;;;;;;;;;-1:-1:-1;;58:72:0:o"
+                        "object": "6080600436101561000e575f80fd5b5f3560e01c639b267f0914610021575f80fd5b3461017e575f36600319011261017e575f8054916001918360011c9260018516908115610174575b602095868610831461016057858552869290811561014157506001146100ef575b5050819250601f801993849203011681019281841067ffffffffffffffff8511176100db579083916040918360405281845280519283838601525f5b8481106100c5578560408189601f895f85828601015201168101030190f35b82810184015188820183015287955083016100a6565b634e487b7160e01b5f52604160045260245ffd5b5f8080529192507f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b85831061012e575050828094500101835f61006a565b8054858401850152918301918101610118565b60ff191683860152509293849350151560051b8301019050835f61006a565b634e487b7160e01b5f52602260045260245ffd5b93607f1693610049565b5f80fdfea26469706673582212209bba107a32ed36989d7d67fae643ce40a7fc1eba3a813811c1639a033e57682e64736f6c63430008180033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH2 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x9B267F09 EQ PUSH2 0x21 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH2 0x17E JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH2 0x17E JUMPI PUSH0 DUP1 SLOAD SWAP2 PUSH1 0x1 SWAP2 DUP4 PUSH1 0x1 SHR SWAP3 PUSH1 0x1 DUP6 AND SWAP1 DUP2 ISZERO PUSH2 0x174 JUMPI JUMPDEST PUSH1 0x20 SWAP6 DUP7 DUP7 LT DUP4 EQ PUSH2 0x160 JUMPI DUP6 DUP6 MSTORE DUP7 SWAP3 SWAP1 DUP2 ISZERO PUSH2 0x141 JUMPI POP PUSH1 0x1 EQ PUSH2 0xEF JUMPI JUMPDEST POP POP DUP2 SWAP3 POP PUSH1 0x1F DUP1 NOT SWAP4 DUP5 SWAP3 SUB ADD AND DUP2 ADD SWAP3 DUP2 DUP5 LT PUSH8 0xFFFFFFFFFFFFFFFF DUP6 GT OR PUSH2 0xDB JUMPI SWAP1 DUP4 SWAP2 PUSH1 0x40 SWAP2 DUP4 PUSH1 0x40 MSTORE DUP2 DUP5 MSTORE DUP1 MLOAD SWAP3 DUP4 DUP4 DUP7 ADD MSTORE PUSH0 JUMPDEST DUP5 DUP2 LT PUSH2 0xC5 JUMPI DUP6 PUSH1 0x40 DUP2 DUP10 PUSH1 0x1F DUP10 PUSH0 DUP6 DUP3 DUP7 ADD ADD MSTORE ADD AND DUP2 ADD SUB ADD SWAP1 RETURN JUMPDEST DUP3 DUP2 ADD DUP5 ADD MLOAD DUP9 DUP3 ADD DUP4 ADD MSTORE DUP8 SWAP6 POP DUP4 ADD PUSH2 0xA6 JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x41 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 DUP1 DUP1 MSTORE SWAP2 SWAP3 POP PUSH32 0x290DECD9548B62A8D60345A988386FC84BA6BC95484008F6362F93160EF3E563 JUMPDEST DUP6 DUP4 LT PUSH2 0x12E JUMPI POP POP DUP3 DUP1 SWAP5 POP ADD ADD DUP4 PUSH0 PUSH2 0x6A JUMP JUMPDEST DUP1 SLOAD DUP6 DUP5 ADD DUP6 ADD MSTORE SWAP2 DUP4 ADD SWAP2 DUP2 ADD PUSH2 0x118 JUMP JUMPDEST PUSH1 0xFF NOT AND DUP4 DUP7 ADD MSTORE POP SWAP3 SWAP4 DUP5 SWAP4 POP ISZERO ISZERO PUSH1 0x5 SHL DUP4 ADD ADD SWAP1 POP DUP4 PUSH0 PUSH2 0x6A JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x22 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST SWAP4 PUSH1 0x7F AND SWAP4 PUSH2 0x49 JUMP JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP12 0xBA LT PUSH27 0x32ED36989D7D67FAE643CE40A7FC1EBA3A813811C1639A033E5768 0x2E PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+                        "sourceMap": "59:72:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;59:72:0;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;59:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:72:0;;;;;-1:-1:-1;59:72:0;;;;-1:-1:-1;59:72:0;;;;;;;;-1:-1:-1;59:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;"
                     },
                     "gasEstimates": {
                         "creation": {
-                            "codeDepositCost": "97800",
+                            "codeDepositCost": "88000",
                             "executionCost": "infinite",
                             "totalCost": "infinite"
                         },
@@ -79,7 +54,7 @@
                         "_string()": "9b267f09"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_string\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":\"HelloWeb3\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":{\"keccak256\":\"0xc770a2fc38467a0a3578c0e39bbf3e21c38da063bebd6f5a96e098b125b38671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9a1a739659a9882a8c40d19de61b8ed5d94bcd3b9346fe32a48b2d85d6056d00\",\"dweb:/ipfs/QmRfnwhod8ezopDznFXhapkXXfXnJHQZs1S13m16uxzSzf\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_string\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":\"HelloWeb3\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/HelloWord.sol\":{\"keccak256\":\"0x0e7c7acbce2149bd53c0af862ecd09cafd874e8d79b33eaaea7ef9f01a499fc8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e96eb7e14bee5dad48d51cde8a8e2dda628de5cd21f75dfc39e09c38aaed68fc\",\"dweb:/ipfs/QmVL9mBWUqpoYwVJFbs2VUb6d2WcAA83JfQhRaiZDSPhBP\"]}},\"version\":1}",
                 "storageLayout": {
                     "storage": [
                         {
@@ -95,6 +70,87 @@
                         "t_string_storage": {
                             "encoding": "bytes",
                             "label": "string",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        },
+        "d:/web3/相关资料/web3learning/Solidity/ValueType.sol": {
+            "ValueTypes": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "_uint",
+                        "outputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "608080604052346017575f80556074908161001c8239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c632543135b146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220e6269d2fb098ac2495e6ca00f2d2dfe4eaf3446dfa389d4c5856279963cace5764736f6c63430008180033",
+                        "opcodes": "PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE CALLVALUE PUSH1 0x17 JUMPI PUSH0 DUP1 SSTORE PUSH1 0x74 SWAP1 DUP2 PUSH2 0x1C DUP3 CODECOPY RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH1 0x11 JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x2543135B EQ PUSH1 0x23 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH1 0x3A JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH1 0x3A JUMPI PUSH1 0x20 SWAP1 PUSH0 SLOAD DUP2 MSTORE RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE6 0x26 SWAP14 0x2F 0xB0 SWAP9 0xAC 0x24 SWAP6 0xE6 0xCA STOP CALLCODE 0xD2 0xDF 0xE4 0xEA RETURN PREVRANDAO PUSH14 0xFA389D4C5856279963CACE576473 PUSH16 0x6C634300081800330000000000000000 ",
+                        "sourceMap": "59:3476:1:-:0;;;;;;;1463:1;59:3476;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "60808060405260043610156011575f80fd5b5f3560e01c632543135b146023575f80fd5b34603a575f366003190112603a576020905f548152f35b5f80fdfea2646970667358221220e6269d2fb098ac2495e6ca00f2d2dfe4eaf3446dfa389d4c5856279963cace5764736f6c63430008180033",
+                        "opcodes": "PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH1 0x11 JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0x2543135B EQ PUSH1 0x23 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH1 0x3A JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH1 0x3A JUMPI PUSH1 0x20 SWAP1 PUSH0 SLOAD DUP2 MSTORE RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE6 0x26 SWAP14 0x2F 0xB0 SWAP9 0xAC 0x24 SWAP6 0xE6 0xCA STOP CALLCODE 0xD2 0xDF 0xE4 0xEA RETURN PREVRANDAO PUSH14 0xFA389D4C5856279963CACE576473 PUSH16 0x6C634300081800330000000000000000 ",
+                        "sourceMap": "59:3476:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:3476:1;;;;;;;;;;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "23200",
+                            "executionCost": "5086",
+                            "totalCost": "28286"
+                        },
+                        "external": {
+                            "_uint()": "2241"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "_uint()": "2543135b"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_uint\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":\"ValueTypes\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/web3/\\u76f8\\u5173\\u8d44\\u6599/web3learning/Solidity/ValueType.sol\":{\"keccak256\":\"0x667cdfb3a04efaf178303cb96c7f808b39c313ce629ad0bb8317e35e230a7362\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://136b688915f7e0118b6738c521a687c938ac14a47473804a34a71cec1de8355d\",\"dweb:/ipfs/QmZr5i7FvnYYAUFmZMBQfh7u4a9fvvEJ5zpCohr8MWFthH\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 10,
+                            "contract": "d:/web3/相关资料/web3learning/Solidity/ValueType.sol:ValueTypes",
+                            "label": "_uint",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_uint256"
+                        }
+                    ],
+                    "types": {
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
                             "numberOfBytes": "32"
                         }
                     }
@@ -126,10 +182,10 @@
                             "solidity",
                             "^",
                             "0.8",
-                            ".9"
+                            ".24"
                         ],
                         "nodeType": "PragmaDirective",
-                        "src": "33:23:0"
+                        "src": "33:24:0"
                     },
                     {
                         "abstract": false,
@@ -143,7 +199,7 @@
                             5
                         ],
                         "name": "HelloWeb3",
-                        "nameLocation": "67:9:0",
+                        "nameLocation": "68:9:0",
                         "nodeType": "ContractDefinition",
                         "nodes": [
                             {
@@ -152,10 +208,10 @@
                                 "id": 4,
                                 "mutability": "mutable",
                                 "name": "_string",
-                                "nameLocation": "97:7:0",
+                                "nameLocation": "98:7:0",
                                 "nodeType": "VariableDeclaration",
                                 "scope": 5,
-                                "src": "83:37:0",
+                                "src": "84:37:0",
                                 "stateVariable": true,
                                 "storageLocation": "default",
                                 "typeDescriptions": {
@@ -166,7 +222,7 @@
                                     "id": 2,
                                     "name": "string",
                                     "nodeType": "ElementaryTypeName",
-                                    "src": "83:6:0",
+                                    "src": "84:6:0",
                                     "typeDescriptions": {
                                         "typeIdentifier": "t_string_storage_ptr",
                                         "typeString": "string"
@@ -181,7 +237,7 @@
                                     "kind": "string",
                                     "lValueRequested": false,
                                     "nodeType": "Literal",
-                                    "src": "105:15:0",
+                                    "src": "106:15:0",
                                     "typeDescriptions": {
                                         "typeIdentifier": "t_stringliteral_7db713e0e7908f23690c4b5f0c7f7a214f85e06ba98b90881c92894a08f624c0",
                                         "typeString": "literal_string \"Hellow  World\""
@@ -192,13 +248,107 @@
                             }
                         ],
                         "scope": 6,
-                        "src": "58:72:0",
-                        "usedErrors": []
+                        "src": "59:72:0",
+                        "usedErrors": [],
+                        "usedEvents": []
                     }
                 ],
-                "src": "33:99:0"
+                "src": "33:100:0"
             },
             "id": 0
+        },
+        "d:/web3/相关资料/web3learning/Solidity/ValueType.sol": {
+            "ast": {
+                "absolutePath": "d:/web3/相关资料/web3learning/Solidity/ValueType.sol",
+                "exportedSymbols": {
+                    "ValueTypes": [
+                        11
+                    ]
+                },
+                "id": 12,
+                "license": "MIT",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 7,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".24"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "33:24:1"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "ValueTypes",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 11,
+                        "linearizedBaseContracts": [
+                            11
+                        ],
+                        "name": "ValueTypes",
+                        "nameLocation": "68:10:1",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "functionSelector": "2543135b",
+                                "id": 10,
+                                "mutability": "mutable",
+                                "name": "_uint",
+                                "nameLocation": "1457:5:1",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 11,
+                                "src": "1445:19:1",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 8,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "1445:4:1",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "value": {
+                                    "hexValue": "30",
+                                    "id": 9,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "1463:1:1",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_rational_0_by_1",
+                                        "typeString": "int_const 0"
+                                    },
+                                    "value": "0"
+                                },
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 12,
+                        "src": "59:3476:1",
+                        "usedErrors": [],
+                        "usedEvents": []
+                    }
+                ],
+                "src": "33:3502:1"
+            },
+            "id": 1
         }
     }
 }
