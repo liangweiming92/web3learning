@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fMemory",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/DataStorage.sol": "DataStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/DataStorage.sol": {
+			"keccak256": "0x8deb5a6507ede65fbc2ab9fd7684dc2b5cece9e341f3150027b2eaafd16efe14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ed5c8a14b05b56924dfa44dcad8fff385372aae5ae7e8614e73a8e53d0c2c1a",
+				"dweb:/ipfs/QmNrekRpamzw3Rdr82GL66zXEvNcgWUhFznRWWitzuXti8"
+			]
+		}
+	},
+	"version": 1
+}

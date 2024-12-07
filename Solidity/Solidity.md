@@ -20,3 +20,9 @@ function <function name>(<parameter types>) {internal|external|public|private} [
 6. 注意:public|private|internal 也可用于修饰状态变量。public变量会自动生成同名的getter函数，用于查询数值。未标明可见性类型的状态变量，默认为internal。
 7. [pure|view|payable]：决定函数权限/功能的关键字。payable（可支付的）很好理解，带着它的函数，运行的时候可以给合约转入 ETH。
 8. [returns ()]：函数返回的变量类型和名称
+
+# 返回值：return 和 returns
+Solidity 中与函数输出相关的有两个关键字：return和returns。它们的区别在于：
+
+returns：跟在函数名后面，用于声明返回的变量类型及变量名。
+return：用于函数主体中，返回指定的变量。
