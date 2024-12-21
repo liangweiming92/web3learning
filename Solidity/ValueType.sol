@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.24;
 contract ValueTypes {
   //值类型 ：布尔型
     //布尔值的运算符包括 同java 

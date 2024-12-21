@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/DimondInheritance.sol": "God"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/DimondInheritance.sol": {
+			"keccak256": "0xd06cfa2be98a62f0ccc027835c0eb41946d95c8a0e3c0a95450eb6e3ced33e3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90ff079997de7422d7f4ad53a195d9c154a37c46e34cf64b300d92bb73937ac1",
+				"dweb:/ipfs/Qmb5mh3nBTbrnJAT5AXitcp9w5zZg3qc4MUxvd8PVY7SuG"
+			]
+		}
+	},
+	"version": 1
+}
